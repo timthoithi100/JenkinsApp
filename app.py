@@ -1,7 +1,8 @@
+# app.py
 def main():
-    print("--- Jenkins + Docker CI/CD Success ---")
-    print("The Python application is running inside a container.")
-    print(f"Calculation test: 10 + 10 = {10 + 10}")
+    print("--- Jenkins CI/CD: Automated Trigger Test ---")
+    print("The code was updated and deployed automatically!")
+    print(f"New calculation: 50 * 2 = {50 * 2}")
 
 if __name__ == "__main__":
     main()
